@@ -1,0 +1,22 @@
+{
+
+    "title": "My wallboard title",
+    "titleVisible": false,
+
+    "description": "My first wallboard. This will show up in the dashboard list",
+
+    "layout": {
+        "gridSize": { "columns": 3, "rows": 4 },
+        "customJS": [],
+        "widgets": [
+            { "row": 2, "col": 2, "width": 1, "height": 2, "widget": "helloWorld", "job": "helloWorld", "config": "helloWorld" }
+        ]
+    },
+
+    "config": {
+        "helloWorld": {
+            "interval": 10000,
+            "titleText": "Ave Globulli!"
+        }
+    }
+}
